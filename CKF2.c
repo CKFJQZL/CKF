@@ -35,3 +35,16 @@
 	printf("%d", sum);
 	return 0;
 }*/
+//2,实现2个数的对调。
+/*int main()
+{
+	int a, b;
+	scanf("%d %d", &a, &b);
+	int c = 0;
+	c = a;
+	a = b;
+	b = c;
+	printf("%d %d", a, b);
+	return 0;
+}*/
+//3,已知某商品单价为30，数量为x。求商品的总价钱。用宏定义物品单价。
