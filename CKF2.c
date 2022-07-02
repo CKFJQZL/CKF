@@ -26,7 +26,7 @@
 	return 0;
 }*/
 //1,写一个加法程序，输入整数a b，输出他们的和。
-int main()
+/*int main()
 {
 	int a, b;
 	scanf("%d %d", &a, &b);
@@ -34,4 +34,4 @@ int main()
 	sum = a + b;
 	printf("%d", sum);
 	return 0;
-}
+}*/
