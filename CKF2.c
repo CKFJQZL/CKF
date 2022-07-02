@@ -1,6 +1,5 @@
 #include<stdio.h>
-
-int main()
+/*int main()
 {//ckf
 	int i, j;
 	int a[4][4];
@@ -23,6 +22,16 @@ int main()
 			}
 		}
 	}
+	printf("%d", sum);
+	return 0;
+}*/
+//1,写一个加法程序，输入整数a b，输出他们的和。
+int main()
+{
+	int a, b;
+	scanf("%d %d", &a, &b);
+	int sum = 0;
+	sum = a + b;
 	printf("%d", sum);
 	return 0;
 }
