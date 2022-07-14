@@ -58,7 +58,7 @@
 	return 0;
 }*/
 //4,输入一个三位数，输出该数字的百位，十位，个位，数字之间用一个空格隔开。
-int main()
+/*int main()
 {
 	int a, b, c, d, e;
 	scanf("%d", &a);
@@ -68,6 +68,18 @@ int main()
 	e = c % 10;
 	printf("%d %d %d", b, d, e);
 	return 0;
+}*/
+//编程从键盘输入一个学生的三门成绩，计算出该学生的总成绩和平均成绩
+int main()
+{
+	int a, b, c, sum;
+	scanf("%d%d%d", &a, &b, &c);
+	sum = a + b + c;
+	float h;
+	h = sum / 3.00;
+	printf("%d %.2f", sum, h);
+	return 0;
 }
+
 
 
